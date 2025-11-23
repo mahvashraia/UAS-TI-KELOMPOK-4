@@ -10,11 +10,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // Event Data (Year-Month-Day : 0-indexed month for JS, so 9 is Oct)
     // Added an 'organizer' field for the business card layout
     const events = {
-        "2025-9-7": { title: "Magis Vol. 2", loc: "FIB UI", date: "7 October 2025", org: "MANTRA UI" },
-        "2025-9-9": { title: "JGTC", loc: "FEB UI", date: "9 October 2025", org: "Jazz Goes To Campus" },
-        "2025-9-16": { title: "Enthufest", loc: "Balairung UI", date: "16 October 2025", org: "Enthufest Committee" },
-        "2025-9-28": { title: "Halloween Night", loc: "Rotunda UI", date: "28 October 2025", org: "UI Art Wars" },
-        "2025-9-30": { title: "Closing Party", loc: "Danau Kenanga", date: "30 October 2025", org: "BEM UI" }
+        "2025-10-7": { title: "Magis Vol. 2", loc: "FIB UI", date: "7 November 2025", org: "MANTRA UI", desc: "Irama, Gaul, Dahsyat!" },
+        "2025-10-9": { title: "JGTC", loc: "FEB UI", date: "9 November 2025", org: "Jazz Goes To Campus", desc: "Serenading Jazz for the youth" },
+        "2025-9-16": { title: "Enthufest", loc: "Balairung UI", date: "16 October 2025", org: "Enthufest Committee", desc: "Buku, Pesta... Musik!" },
+        "2025-10-2": { title: "StudentNite", loc: "FISIP UI", date: "2 November 2025", org: "FISIP UI", desc: "Harmony in the Nite! With music we UNITE!" },
+        "2025-10-25": { title: "AKAMSI", loc: "VOKASI UI", date: "25 November 2025", org: "KAMIKASI UI", desc: "Aksi Kamikasi, Musik Penuh Energi!" },
+        "2025-8-23": { title: "Sapa Malam", loc: "FEB UI", date: "23 September 2025", org: "BSO Band FEB UI", desc: "Lets Jam!" }
     };
 
     let currentDate = new Date(2025, 9, 1); // Start October 2025
@@ -73,6 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('cardDate').innerText = data.date;
         document.getElementById('cardLoc').innerText = data.loc;
         document.getElementById('cardOrg').innerText = data.org;
+        document.getElementById('cardDesc').innerText = data.desc; 
         
         // Show Card (triggers CSS transition)
         eventCard.classList.add('active');
