@@ -126,6 +126,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     observer.observe(calendarSection);
 
+        // --- SPOTIFY TOGGLE ---
+    const spotifyToggle = document.getElementById('spotifyToggle');
+    const spotifyWidget = document.getElementById('spotifyWidget');
+
+    spotifyToggle.addEventListener('click', () => {
+        spotifyWidget.classList.toggle('collapsed');
+    });
+
+
+
     // Initialize Calendar on Load
     renderCalendar(currentDate);
 
