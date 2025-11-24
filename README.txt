@@ -62,11 +62,11 @@ Menunjukkan semua sosial media event organizer di UI
 
 THE TEAM BEHIND THE WEBSITE
 
-Altaf Aqsa Ghaylhan Falagy	Project Manager	Manajemen timeline, koordinasi tim, pengawasan visi proyek.
-Alisya Sulaimah Gustav		Engineer	Pengembangan fitur Kalender interaktif dan logika JavaScript.
-Mahvash Raia Anandhita		Engineer	Implementasi layout Home, Events List, dan integrasi aset gambar.
-Audrey Florence Putri Setiawan	Engineer	Pengembangan bagian Socials, Team, dan optimasi performa (SEO/Speed).
-Athian Issam Ameera		Designer	Perancangan UI/UX, pemilihan tipografi, palet warna, dan aset grafis.
+Altaf Aqsa Ghaylhan Falagy	    Project Manager	      Manajemen timeline, koordinasi tim, pengawasan visi proyek.
+Alisya Sulaimah Gustav		       Engineer	             Pengembangan fitur Kalender interaktif dan logika JavaScript.
+Mahvash Raia Anandhita	       	Engineer	             Implementasi layout Home, Events List, dan integrasi aset gambar.
+Audrey Florence Putri Setiawan	Engineer	             Pengembangan bagian Socials, Team, dan optimasi performa (SEO/Speed).
+Athian Issam Ameera	          	Designer	             Perancangan UI/UX, pemilihan tipografi, palet warna, dan aset grafis.
 
 
 
