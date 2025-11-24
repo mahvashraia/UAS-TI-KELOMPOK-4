@@ -46,8 +46,6 @@ html {
 
 body {
     background-color: var(--bg-dark);
-    
-    /* --- ADD THESE LINES --- */
     background-image: url('background.png'); 
     background-size: cover;       
     background-position: center; 
