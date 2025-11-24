@@ -8,7 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const eventCard = document.getElementById('eventCard');
 
     // Event Data (Year-Month-Day : 0-indexed month for JS, so 9 is Oct)
-    // Added an 'organizer' field for the business card layout
     const events = {
         "2026-1-1": { title: "easter egg hehee", loc: "TI 4", date: "1 February 2026", org: "Kelompok 4 TI", desc: "Busett!!" },
         "2025-10-7": { title: "Magis Vol. 2", loc: "FIB UI", date: "7 November 2025", org: "MANTRA UI", desc: "Irama, Gaul, Dahsyat!" },
@@ -58,9 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const eventKey = `${year}-${month}-${i}`;
             if (events[eventKey]) {
                 dayEl.classList.add('has-event', 'clickable');
-                // Add click handler to show card
                 dayEl.addEventListener('click', (e) => {
-                    // Prevent bubbling so clicking the day doesn't immediately trigger the document click listener
                     e.stopPropagation(); 
                     showEventCard(events[eventKey]);
                 });
@@ -133,8 +130,6 @@ document.addEventListener('DOMContentLoaded', () => {
     spotifyToggle.addEventListener('click', () => {
         spotifyWidget.classList.toggle('collapsed');
     });
-
-
 
     // Initialize Calendar on Load
     renderCalendar(currentDate);
